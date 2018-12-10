@@ -1,18 +1,19 @@
 ﻿spring:
   profiles:
     active:
-      - dev
+     - dev 
 
------------
+----------- 
+
 spring:
   profiles: dev
   application:
     name: microservicecloud-config-whoami-dev
 
 
-------------
-
+------------ 
+ 
 spring:
   profiles: test
   application:
-    name: microservicecloud-config-whoami-test
+    name: microservicecloud-config-whoami-test 
