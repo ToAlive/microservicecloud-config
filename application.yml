@@ -2,18 +2,3 @@
   profiles:
     active:
      - dev 
-
------------ 
-
-spring:
-  profiles: dev
-  application:
-    name: microservicecloud-config-whoami-dev
-
-
------------- 
- 
-spring:
-  profiles: test
-  application:
-    name: microservicecloud-config-whoami-test 
